@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+  background-color: violet;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: violet;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  /* text-align: center; */
+  box-sizing: border-box;
+  width: 100%;
+  /* display: flex; */
+}
+.product-container {
+  width: 100%;
+  align-content: center;
+}
+.container{
+  margin: 100px;
+}
+
+.product-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+}
+.product-price {
+  font-weight: 600;
+  font-style: bold;
+  color: #23cc71;
+  text-align: center;
+}
+
+.header-container {
+  width: auto;
+  height: 75px;
+  background-color: violet;
+ 
+}
+.header-container a {
+  color: black;
+  text-decoration: none;
+  
+}
+.col-3 {
+  width: 50%;
+  float: left;
+}
+
+.title{
+  padding-left: 200px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.home {
+  width: auto;
+  /* padding-right: 50px; */
+  background-color: #e0d3f5;
+  object-fit: fill;
+}
+.menu{
+  text-align: center;
+  margin-top: 28px;
+}
+.menu li {
+  list-style-type: none;
+ 
+  display: inline;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+  padding-right: 50px;
+  text-decoration-style: solid;
+}
+.list {
+  text-align: center;
+  height: 300px;
+  width: 25%;
+  float: left;
+  justify-content: center;
+}
+.list a{
+  text-decoration: none;
+}
+.Card{
+  
+  padding-right: 100px;
+}
+.singleProduct-details{
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* .list-head {
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}*/
+
+.list img{
+  object-fit: contain;
+}
